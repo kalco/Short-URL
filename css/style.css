@@ -1,0 +1,52 @@
+
+body {
+    font: 0.9em Tahoma,sans-serif;
+}
+.title {
+    font-weight: normal;
+}
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    width: 100%;
+}
+input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 10px;
+}
+input[type="url"] {
+    width: 300px;
+}
+input[type="url"]:focus {
+    border: 1px solid #27ae60;
+}
+input[type="submit"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #27ae60;
+    border-color: -moz-use-text-color -moz-use-text-color #219d55;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 2px;
+    box-shadow: 0 -2px #219d55 inset;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    height: 40px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    vertical-align: top;
+    width: 100px;
+}
+input[type="submit"]:hover {
+    box-shadow: none;
+    outline: medium none;
+    top: 1px;
+}
