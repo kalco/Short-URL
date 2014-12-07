@@ -1,4 +1,4 @@
 Short-URL
 =========
 
-Simple PHP script for short url easy
+Simple PHP script to make short url easy
